@@ -1,4 +1,8 @@
+import { useState } from "react"
+
 export default function App(){
+  const [newitem, setnewitem] = useState("")
+  setnewitem("")
   return (
     <>
     <form className = "new-item-form">
